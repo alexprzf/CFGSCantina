@@ -1,0 +1,1 @@
+{"productes":{"Entrecot":"2"},"preu":"23.40","Dades":{"Nom":"Alex","Telefon":"666666666","Email":"a18aleperfer@inspedralbes.cat","Intolerancias":"","Extras":""},"Estat":"Per preparar"}

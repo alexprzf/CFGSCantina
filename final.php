@@ -32,7 +32,7 @@
           fwrite($myfile, $json);
           fclose($myfile); 
 
-          // Enviar mail
+          /*Need server to send Email
             $to= $_POST["email"] ;
             $subject ="La teva comanda";
             $json = json_decode($_POST["comanda"],true);
@@ -42,7 +42,7 @@
             }
             $txt.="Preu: ".$json['preu'];
             $txt = wordwrap($txt,70);
-            mail($to,$subject,$txt);      
+            mail($to,$subject,$txt);*/ 
         }
       ?>
     </div>

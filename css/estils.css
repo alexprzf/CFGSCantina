@@ -22,6 +22,61 @@ body {
     flex: 1;
 }
 
+/*productes*/
+#navProductes #ulProductes{
+  height:200px; 
+  overflow:hidden; 
+  overflow-y:scroll;
+}
+#columnaAfegir{
+  text-align: center;
+}
+.labelsProducte{
+  width:172px;
+  margin: 5px;
+  text-align: left;
+}
+#output{
+  width: 100px;
+  height: 100px;
+  display: none;
+  border-radius: 35px;
+}
+#labelNom{
+  font-size: 10px;
+}
+#labelPreu{
+  font-size: 10px;
+}
+#h3Previsualitzacio{
+  display: none;
+}
+.btnAfegirProducte{
+    border: none;
+    background: none;
+    font-family: Open-sans;
+    color: black;
+    background-color: white;
+    border-radius: 100px;
+    width: 150px;
+    height:30px;
+    outline: none;
+}
+
+
+/*landing staff*/
+#divLandingStaff{
+  text-align: center;
+
+}
+
+.imgLandingStaff{
+  margin-top: 100px;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
 /*Footer*/
 
 #footer {

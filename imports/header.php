@@ -6,7 +6,7 @@
 		<nav id="navheader">
 			<ul class="ListaHeader">
 				<li class="ElementoListaHeader"><a class="enlaceHeader aHeader" href="menu.php">Menú </a></li>
-				<li class="ElementoListaHeader"><a class="enlaceHeader aHeader" href="admin/staff.php">Staff </a></li>
+				<li class="ElementoListaHeader"><a class="enlaceHeader aHeader" href="admin/landingStaff.php">Staff </a></li>
 			</ul>
 		</nav>   
 </div>

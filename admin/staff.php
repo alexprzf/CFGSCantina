@@ -22,6 +22,8 @@
                     $myfile = fopen("../Tiquets/".$_POST['fitxer'], "w") or die("Unable to open file!");
                     fwrite($myfile, json_encode($json));
                     fclose($myfile); 
+                    
+                    /*Need server to send Email
 
                     $to= $json['Dades']['Email'];
                     $subject ="La teva comanda";
@@ -31,7 +33,7 @@
                     }
                     $txt.="Preu: ".$json['preu'];
                     $txt = wordwrap($txt,70);
-                    mail($to,$subject,$txt);
+                    mail($to,$subject,$txt);*/
                 } 
             ?>
             <?php

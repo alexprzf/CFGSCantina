@@ -147,17 +147,25 @@ function comprobaBtn() {
             btn(">", false);
             btn("<", true, "Tornar a Pàgina principal");
             break;
-        case "admin/staff.php":
-            btn(">",false);
-            btn("<",true,"Torna a Pàgina principal");
-            break;
+       
         case "avislegal.php":
             btn(">",false);
             btn("<",true,"Torna a Pàgina principal");
             break;
-        case "staff.php":
+        
+        case "landingStaff.php":
             btn(">", false);
             btn("<", true, "Tornar a Pàgina principal");
+            break;
+
+        case "staff.php":
+            btn(">", false);
+            btn("<", true, "Tornar a Staff");
+            break;
+
+        case "productes.php":
+            btn(">", false);
+            btn("<", true, "Tornar a Staff");
             break;
     }
 }
@@ -170,8 +178,16 @@ function enrera() {
             window.location.href = "landing.php";
             break;
         
-        case "staff.php":
+        case "landingStaff.php":
             window.location.href = "../landing.php";
+            break;
+
+        case "staff.php":
+            window.location.href = "landingStaff.php";
+            break;
+        
+        case "productes.php":
+            window.location.href = "landingStaff.php";
             break;
 
 
