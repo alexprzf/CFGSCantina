@@ -15,6 +15,15 @@ function enviaProducte() {
           )
     }
 }
+function modifica(){
+    let foto = document.getElementById("imgProducteStaffModificar").value;
+    let extensio = foto.split(".");
+    let nom = document.getElementById("nomMod").textContent;
+    nom = nom.replace(/ /g,"");
+    nom += "."+extensio[1];
+    document.getElementById("nouNom").value = nom;
+    document.getElementById("modificaForm").submit();
+}
 function actualitzaNom(){
     document.getElementById("labelNom").innerHTML = document.getElementById("nomProducteStaff").value;
     document.getElementById("h3Previsualitzacio").style.display = "inline";
@@ -26,7 +35,7 @@ function actualitzaPreu(){
 function verificaForm(){
     let foto = document.getElementById("imgProducteStaff").value;
     let extensio = foto.split(".");
-    if(extensio[1]=='png' && extensio[1]=='jpg'){
+    if((extensio[1]=='png' && extensio[1]=='jpg') || document.getElementById("imgProducteStaff").files.length == 0 ){
         alert(1);
         return false;
     }

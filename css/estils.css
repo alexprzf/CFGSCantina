@@ -23,10 +23,30 @@ body {
 }
 
 /*productes*/
+.fotoLlista{
+  width: 100px;
+  height:100px; 
+}
+#divCampsModificar{
+  text-align: center;
+}
+#titolModificarProductes{
+  text-align: center;
+}
+.inputsProducte{
+  width:200px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
 #navProductes #ulProductes{
-  height:200px; 
+  width: 350px;
   overflow:hidden; 
   overflow-y:scroll;
+  padding: 0;
 }
 #columnaAfegir{
   text-align: center;
@@ -61,6 +81,17 @@ body {
     width: 150px;
     height:30px;
     outline: none;
+}
+.btnModificarProducte{
+  border: none;
+  background: none;
+  font-family: Open-sans;
+  color: black;
+  background-color: white;
+  border-radius: 100px;
+  width: 300px;
+  height:30px;
+  outline: none;
 }
 
 
@@ -498,7 +529,7 @@ form label{
 	display:inline-block;
 }
 
-form input[type="text"],
+.inputComanda,
 form input[type="email"]{
 	width:350px;
 	padding:3px 10px;

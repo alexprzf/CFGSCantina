@@ -28,23 +28,23 @@
                     <legend>Dades adicionals</legend>
                     <div>
                         <label for="name" class="label">Nom</label>
-                        <input class="addicional" name="name" type="text" id="name" size="15">
+                        <input class="addicional inputComanda" name="name" type="text" id="name" size="15">
                     </div>
                     <div>
                         <label for="telefon" class="label">Telefon</label>
-                        <input class="addicional" name="telefon" type="text" id="telefon" size="15">
+                        <input class="addicional inputComanda" name="telefon" type="text" id="telefon" size="15">
                     </div>
                     <div>
                         <label for="email" class="label">Email</label>
-                        <input class="addicional" name="email" type="text" id="email" size="15">
+                        <input class="addicional inputComanda" name="email" type="text" id="email" size="15">
                     </div>
                     <div>
                         <label for="extres" class="label">Intoleràncias</label>
-                        <input class="addicional" rows="3" name="intolerancies" type="text" id="intolerancies" for="intolerancies" placeholder="Descriu les teves intoleràncies" ></input>
+                        <input class="addicional inputComanda" rows="3" name="intolerancies" type="text" id="intolerancies" for="intolerancies" placeholder="Descriu les teves intoleràncies" ></input>
                     </div>
                     <div>
                         <label for="extres" class="label">Extres</label>
-                        <input class="addicional" name="extres" for="extres" type="text" id="extres" placeholder="Descriu els extres pels entrepans" ></input>
+                        <input class="addicional inputComanda" name="extres" for="extres" type="text" id="extres" placeholder="Descriu els extres pels entrepans" ></input>
                     </div>
 
                     <input id="comanda" type="hidden" name= "comanda" value="">  
